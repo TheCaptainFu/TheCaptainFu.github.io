@@ -191,14 +191,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
+
 .section__1__box{
     width: 1000px;
     height: 200px;
     font-size: 60px;
     color: white;  
 }
+
 .section__1__text1{
     width: 1000px;
     height: 100px;
@@ -903,10 +904,8 @@
 
 @media screen and (max-width: 767px){
     .section__resume__2{
-       
         width: 300px;
         height: 423px;
-        background-color: red;
     }
 }
 
