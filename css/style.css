@@ -307,6 +307,7 @@
     height: 600px;
     display: flex;
     margin-bottom: 150px;
+    margin-top: 100px;
 }
 
 .section__2__column1{
@@ -938,6 +939,13 @@
 .footer__logo img{
     width: 70px;
     height: 70px;
+    transition: 1s;
+}
+
+.footer__logo img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    cursor: pointer;
 }
 
 .footer__info{
@@ -996,11 +1004,11 @@
 .upButton{
     display: block;
     position: fixed;
-    bottom: 100px;
-    right: 100px;
+    bottom: 40px;
+    right: 40px;
     z-index: 1000;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     cursor: pointer;
     float: right;
